@@ -1,0 +1,535 @@
+[
+  {
+    "id": "llm-search-agents-survey",
+    "title": "A Survey of Large Language Model-Based Search Agents",
+    "year": 2026,
+    "venue": "ACL 2026",
+    "paper_url": "https://aclanthology.org/2026.acl-long.374/",
+    "code_url": "",
+    "section": "Surveys",
+    "summary": "A roadmap for LLM search agents, covering planning, retrieval, reasoning and evaluation.",
+    "authors": [
+      "Yunjia Xi",
+      "Jianghao Lin",
+      "Yongzhao Xiao",
+      "Zheli Zhou",
+      "Rong Shan",
+      "Te Gao",
+      "Jiachen Zhu",
+      "Weiwen Liu",
+      "Yong Yu",
+      "Weinan Zhang"
+    ],
+    "figure": {
+      "path": "assets/frameworks/llm-search-agents-survey.png",
+      "source_pdf_url": "https://aclanthology.org/2026.acl-long.374.pdf",
+      "source_pdf_sha256": "6929de22ce428f679c77e8582e28e239c74a6bdb6123ba8aa21ca7b2fa479d7d",
+      "figure_label": "Figure 2",
+      "figure_kind": "overview",
+      "page": 3,
+      "crop_pt": [
+        82.48,
+        65.68,
+        512.24,
+        306.32
+      ],
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "method": "Survey"
+  },
+  {
+    "id": "vidorag",
+    "title": "ViDoRAG: Visual Document Retrieval-Augmented Generation via Dynamic Iterative Reasoning Agents",
+    "year": 2025,
+    "venue": "EMNLP 2025",
+    "paper_url": "https://aclanthology.org/2025.emnlp-main.464/",
+    "code_url": "https://github.com/Alibaba-NLP/ViDoRAG",
+    "section": "Multimodal Search and Retrieval",
+    "summary": "Coordinates Seeker, Inspector and Answer agents for iterative visual-document retrieval and verification.",
+    "authors": [
+      "Qiuchen Wang",
+      "Ruixue Ding",
+      "Zehui Chen",
+      "Weiqi Wu",
+      "Shihang Wang",
+      "Pengjun Xie",
+      "Feng Zhao"
+    ],
+    "figure": {
+      "path": "assets/frameworks/vidorag.png",
+      "source_pdf_url": "https://aclanthology.org/2025.emnlp-main.464.pdf",
+      "source_pdf_sha256": "fbe3096451a19f0f93f95ea2f491b6377f6ae265b124d1dc9101ad72b64d28f0",
+      "figure_label": "Figure 3",
+      "figure_kind": "framework",
+      "page": 5,
+      "crop_pt": [
+        73.84,
+        68.56,
+        521.36,
+        372.08
+      ],
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "method": "ViDoRAG"
+  },
+  {
+    "id": "mc-search",
+    "title": "MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains",
+    "year": 2026,
+    "venue": "ICLR 2026",
+    "paper_url": "https://arxiv.org/abs/2603.00873",
+    "code_url": "https://mc-search-project.github.io/",
+    "section": "Multimodal Search and Retrieval",
+    "summary": "Introduces structured long reasoning chains for evaluating and improving multimodal agentic search.",
+    "authors": [
+      "Xuying Ning",
+      "Dongqi Fu",
+      "Tianxin Wei",
+      "Mengting Ai",
+      "Jiaru Zou",
+      "Ting-Wei Li",
+      "Hanghang Tong",
+      "Yada Zhu",
+      "Hendrik Hamann",
+      "Jingrui He"
+    ],
+    "figure": {
+      "path": "assets/frameworks/mc-search.png",
+      "source_pdf_url": "https://arxiv.org/pdf/2603.00873v1",
+      "source_pdf_sha256": "552f9264cfef79808dc9c0d5fef7bc342a391eb972487a988b44a5bd07ab9728",
+      "figure_label": "Figure 2",
+      "figure_kind": "benchmark",
+      "page": 3,
+      "crop_pt": [
+        115.6,
+        79.6,
+        496.4,
+        301.04
+      ],
+      "license_url": null
+    },
+    "method": "MC-Search"
+  },
+  {
+    "id": "mmsearch-plus",
+    "title": "MMSearch-Plus: Benchmarking Provenance-Aware Search for Multimodal Browsing Agents",
+    "year": 2026,
+    "venue": "ICLR 2026",
+    "paper_url": "https://arxiv.org/abs/2508.21475",
+    "code_url": "https://github.com/mmsearch-plus/MMSearch-Plus",
+    "section": "Multimodal Search and Retrieval",
+    "summary": "Evaluates iterative text-image browsing, answer accuracy and provenance verification.",
+    "authors": [
+      "Xijia Tao",
+      "Yihua Teng",
+      "Xinxing Su",
+      "Xinyu Fu",
+      "Jihao Wu",
+      "Chaofan Tao",
+      "Ziru Liu",
+      "Haoli Bai",
+      "Rui Liu",
+      "Lingpeng Kong"
+    ],
+    "figure": {
+      "path": "assets/frameworks/mmsearch-plus.png",
+      "source_pdf_url": "https://arxiv.org/pdf/2508.21475v3",
+      "source_pdf_sha256": "9e55814d6f1fc9fae00730d572731ac9da75aa72b07cd80d3d2be83d0a562dd5",
+      "figure_label": "Figure 1",
+      "figure_kind": "framework",
+      "page": 2,
+      "crop_pt": [
+        104.56,
+        80.56,
+        506,
+        298.16
+      ],
+      "license_url": null
+    },
+    "method": "MMSearch-Plus"
+  },
+  {
+    "id": "reason-before-retrieve",
+    "title": "Reason Before You Retrieve: Agentic Planning for Multi-modal RAG",
+    "year": 2026,
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2607.22643",
+    "code_url": "",
+    "section": "Multimodal Search and Retrieval",
+    "summary": "Models user intent before retrieval and maintains a structured KnowledgeMap for subsequent search.",
+    "authors": [
+      "Tianyu Yang",
+      "Shir Simon",
+      "Zhenzhen Li",
+      "Minhao Cheng",
+      "Xiangliang Zhang"
+    ],
+    "figure": {
+      "path": "assets/frameworks/reason-before-retrieve.png",
+      "source_pdf_url": "https://arxiv.org/pdf/2607.22643v1",
+      "source_pdf_sha256": "e6052724f4d3a54cca974ac76e37b4773fbd1fae982a79c64d4b7a8ff4d0064f",
+      "figure_label": "Figure 1",
+      "figure_kind": "pipeline",
+      "page": 2,
+      "crop_pt": [
+        106,
+        78.64,
+        506,
+        283.28
+      ],
+      "license_url": null
+    },
+    "method": "Agentic Planning"
+  },
+  {
+    "id": "v-retrver",
+    "title": "V-Retrver: Evidence-Driven Agentic Reasoning for Universal Multimodal Retrieval",
+    "year": 2026,
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2602.06034",
+    "code_url": "https://github.com/chendy25/V-Retrver",
+    "section": "Multimodal Search and Retrieval",
+    "summary": "Uses evidence-driven agent reasoning to solve universal multimodal retrieval tasks.",
+    "authors": [
+      "Dongyang Chen",
+      "Chaoyang Wang",
+      "Dezhao Su",
+      "Xi Xiao",
+      "Zeyu Zhang",
+      "Jing Xiong",
+      "Qing Li",
+      "Yuzhang Shang",
+      "Shichao Kan"
+    ],
+    "figure": {
+      "path": "assets/frameworks/v-retrver.png",
+      "source_pdf_url": "https://arxiv.org/pdf/2602.06034v4",
+      "source_pdf_sha256": "c246fff7bc35404cb7085bb98ddaad22a35cfb5459501d56ed2ccab6da57a407",
+      "figure_label": "Figure 2",
+      "figure_kind": "framework",
+      "page": 4,
+      "crop_pt": [
+        69.04,
+        72.88,
+        526.16,
+        282.8
+      ],
+      "license_url": null
+    },
+    "method": "V-Retrver"
+  },
+  {
+    "id": "deep-image-search",
+    "title": "DeepImageSearch: Benchmarking Multimodal Agents for Context-Aware Image Retrieval in Visual Histories",
+    "year": 2026,
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2602.10809",
+    "code_url": "",
+    "section": "Multimodal Search and Retrieval",
+    "summary": "Benchmarks agents that retrieve images by reasoning over long visual histories and context.",
+    "authors": [
+      "Chenlong Deng",
+      "Mengjie Deng",
+      "Junjie Wu",
+      "Dun Zeng",
+      "Teng Wang",
+      "Qingsong Xie",
+      "Jiadeng Huang",
+      "Shengjie Ma",
+      "Changwang Zhang",
+      "Zhaoxiang Wang",
+      "Jun Wang",
+      "Yutao Zhu",
+      "Zhicheng Dou"
+    ],
+    "figure": {
+      "path": "assets/frameworks/deep-image-search.png",
+      "source_pdf_url": "https://arxiv.org/pdf/2602.10809v2",
+      "source_pdf_sha256": "b45b8d96871b411c2efc341fd370c4c2cfb723186c4c02c680fbdabd5252fb08",
+      "figure_label": "Figure 3",
+      "figure_kind": "dataset",
+      "page": 5,
+      "crop_pt": [
+        52.72,
+        64.72,
+        544.4,
+        290
+      ],
+      "license_url": null
+    },
+    "method": "DeepImageSearch"
+  },
+  {
+    "id": "weagent-mmsearch",
+    "title": "WeAgent-MMSearch: Native Text-Vision Interaction for Multimodal Search Agents",
+    "year": 2026,
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2608.28062",
+    "code_url": "",
+    "section": "Multimodal Search and Retrieval",
+    "summary": "Studies native text-vision interaction and visual-target localization for multimodal search agents.",
+    "authors": [
+      "Zongkai Liu",
+      "Hui Zhang",
+      "Liqiang Niu",
+      "Zhen Cao",
+      "Han Li",
+      "Juntao Liu",
+      "Wenchao Chen",
+      "Chengduo Zhao",
+      "Chao Yu",
+      "Fandong Meng"
+    ],
+    "figure": {
+      "path": "assets/frameworks/weagent-mmsearch.png",
+      "source_pdf_url": "https://arxiv.org/pdf/2608.28062v2",
+      "source_pdf_sha256": "b09a5717482d06f57361d13061d6088bea0252128e5fc23b32de094186d4458d",
+      "figure_label": "Figure 3",
+      "figure_kind": "architecture",
+      "page": 5,
+      "crop_pt": [
+        70,
+        78.64,
+        542,
+        326.48
+      ],
+      "license_url": null
+    },
+    "method": "WeAgent-MMSearch"
+  },
+  {
+    "id": "fix-before-search",
+    "title": "Fix Before Search: Benchmarking Agentic Visual Query Pre-processing in Multimodal RAG",
+    "year": 2026,
+    "venue": "ICML 2026",
+    "paper_url": "https://proceedings.mlr.press/v306/zeng26w.html",
+    "code_url": "https://github.com/phycholosogy/VQQP_Bench",
+    "section": "Multimodal Search and Retrieval",
+    "summary": "Benchmarks agents that repair, crop and enhance visual queries before retrieval.",
+    "authors": [
+      "Shenglai Zeng",
+      "Jiankun Zhang",
+      "Kai Guo",
+      "Xinnan Dai",
+      "Hui Liu",
+      "Jiliang Tang",
+      "Yi Chang"
+    ],
+    "figure": {
+      "path": "assets/frameworks/fix-before-search.png",
+      "source_pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/zeng26w/zeng26w.pdf",
+      "source_pdf_sha256": "efc73fcd39dd72758a3761d842b9eebe9e5aea9e512eff817dddfc3c15419a1e",
+      "figure_label": "Figure 1",
+      "figure_kind": "pipeline",
+      "page": 1,
+      "crop_pt": [
+        307.6,
+        193.36,
+        541.04,
+        352.4
+      ],
+      "license_url": null
+    },
+    "method": "Fix Before Search"
+  },
+  {
+    "id": "vld-rag",
+    "title": "VLD-RAG: Agentic Vision-Language RAG for Long, Visually Rich Multi-Page Documents",
+    "year": 2026,
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2607.24748",
+    "code_url": "",
+    "section": "Multimodal Search and Retrieval",
+    "summary": "Uses an agentic vision-language pipeline to retrieve and reason over long multi-page documents.",
+    "authors": [
+      "Seonok Kim"
+    ],
+    "figure": {
+      "path": "assets/frameworks/vld-rag.png",
+      "source_pdf_url": "https://arxiv.org/pdf/2607.24748v1",
+      "source_pdf_sha256": "91a119ff7e48f245b51b0f55f19dcca1f82844d02adb233e3657d683691aada7",
+      "figure_label": "Figure 1",
+      "figure_kind": "framework",
+      "page": 2,
+      "crop_pt": [
+        68.56,
+        75.76,
+        532.4,
+        443.12
+      ],
+      "license_url": null
+    },
+    "method": "VLD-RAG"
+  },
+  {
+    "id": "collex",
+    "title": "CollEX: A Multimodal Agentic RAG System Enabling Interactive Exploration of Scientific Collections",
+    "year": 2025,
+    "venue": "MAGMaR at SIGIR 2025",
+    "paper_url": "https://aclanthology.org/2025.magmar-1.2/",
+    "code_url": "",
+    "section": "Multimodal Search and Retrieval",
+    "summary": "Supports interactive exploration of scientific collections using multimodal agentic RAG.",
+    "authors": [
+      "Florian Schneider",
+      "Narges Baba Ahmadi",
+      "Niloufar Baba Ahmadi",
+      "Iris Vogel",
+      "Martin Semmann",
+      "Chris Biemann"
+    ],
+    "figure": {
+      "path": "assets/frameworks/collex.png",
+      "source_pdf_url": "https://aclanthology.org/2025.magmar-1.2.pdf",
+      "source_pdf_sha256": "4ee6b48eb1579160529f56ecb4df7229b5f3b01ab5124f5470c1340708f6181f",
+      "figure_label": "Figure 4",
+      "figure_kind": "architecture",
+      "page": 3,
+      "crop_pt": [
+        305.68,
+        577.84,
+        525.2,
+        704.24
+      ],
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "method": "CollEX"
+  },
+  {
+    "id": "beyond-sequential-tools",
+    "method": "Dynamic Multi-Expert Fusion",
+    "title": "Beyond Sequential Tools: A Unified VLM Agent System for Photographic Post-Processing via Dynamic Multi-Expert Fusion",
+    "year": 2026,
+    "venue": "CVPR 2026",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xiong_Beyond_Sequential_Tools_A_Unified_VLM_Agent_System_for_Photographic_CVPR_2026_paper.pdf",
+    "code_url": "",
+    "section": "Image Processing and Restoration",
+    "summary": "VLM orchestrates dynamic expert LoRA fusion for single-pass photographic post-processing.",
+    "authors": [
+      "Honglin Xiong",
+      "Chenjie Zhu",
+      "Jianbiao Ding",
+      "Zixuan Ni",
+      "Wei Li",
+      "Zhenpeng Mi",
+      "Qian Wang"
+    ],
+    "figure": {
+      "path": "assets/frameworks/beyond-sequential-tools.png",
+      "source_pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xiong_Beyond_Sequential_Tools_A_Unified_VLM_Agent_System_for_Photographic_CVPR_2026_paper.pdf",
+      "source_pdf_sha256": "a1815110b9f407eca9308c7d9171be56e32447f09d3a99d813b511462e1b55db",
+      "figure_label": "Figure 1",
+      "figure_kind": "framework",
+      "page": 3,
+      "crop_pt": [
+        58,
+        72,
+        554,
+        372
+      ],
+      "license_url": null
+    }
+  },
+  {
+    "id": "ibisagent",
+    "method": "IBISAgent",
+    "title": "IBISAgent: Reinforcing Pixel-Level Visual Reasoning in MLLMs for Universal Biomedical Object Referring and Segmentation",
+    "year": 2026,
+    "venue": "CVPR 2026",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Jiang_IBISAgent_Reinforcing_Pixel-Level_Visual_Reasoning_in_MLLMs_for_Universal_Biomedical_CVPR_2026_paper.pdf",
+    "code_url": "https://github.com/Yankai96/IBISAgent",
+    "section": "Biomedical Visual Agents",
+    "summary": "Iterative text-based click actions and segmentation tools trained with cold-start SFT and agentic RL.",
+    "authors": [
+      "Yankai Jiang",
+      "Qiaoru Li",
+      "Binlu Xu",
+      "Haoran Sun",
+      "Chao Ding",
+      "Junting Dong",
+      "Yuxiang Cai",
+      "Xuhong Zhang",
+      "Jianwei Yin"
+    ],
+    "figure": {
+      "path": "assets/frameworks/ibisagent.png",
+      "source_pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Jiang_IBISAgent_Reinforcing_Pixel-Level_Visual_Reasoning_in_MLLMs_for_Universal_Biomedical_CVPR_2026_paper.pdf",
+      "source_pdf_sha256": "49c919d789b93c9e1ba32df017a7617c7c061325d0cecd4f9916f2d614390b97",
+      "figure_label": "Figure 2",
+      "figure_kind": "framework",
+      "page": 4,
+      "crop_pt": [
+        58,
+        72,
+        554,
+        255
+      ],
+      "license_url": null
+    }
+  },
+  {
+    "id": "symphony",
+    "method": "Symphony",
+    "title": "Symphony: A Cognitively-Inspired Multi-Agent System for Long-Video Understanding",
+    "year": 2026,
+    "venue": "CVPR 2026",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Yan_Symphony_A_Cognitively-Inspired_Multi-Agent_System_for_Long-Video_Understanding_CVPR_2026_paper.pdf",
+    "code_url": "https://github.com/Haiyang0226/Symphony",
+    "section": "Video Understanding and Multi-Agent Systems",
+    "summary": "Planning, grounding, perception and reflection agents collaborate for long-video reasoning.",
+    "authors": [
+      "Haiyang Yan",
+      "Hongyun Zhou",
+      "Peng Xu",
+      "Xiaoxue Feng",
+      "Mengyi Liu"
+    ],
+    "figure": {
+      "path": "assets/frameworks/symphony.png",
+      "source_pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Yan_Symphony_A_Cognitively-Inspired_Multi-Agent_System_for_Long-Video_Understanding_CVPR_2026_paper.pdf",
+      "source_pdf_sha256": "be6cac9104ca22a67eb5ce0fdfc8d696c186cef560e0065b121def0a65e77e7b",
+      "figure_label": "Figure 2",
+      "figure_kind": "framework",
+      "page": 3,
+      "crop_pt": [
+        68,
+        72,
+        545,
+        307
+      ],
+      "license_url": null
+    }
+  },
+  {
+    "id": "tooldf",
+    "method": "ToolDF",
+    "title": "TOOLDF: Tool-Integrated Reasoning for Mixed-Authenticity Audio Deepfake Detection",
+    "year": 2026,
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/pdf/2609.03620v1",
+    "code_url": "https://github.com/rlataewoo/tooldf",
+    "section": "Audio and Tool-Integrated Reasoning",
+    "summary": "An audio language model selects separation and detection tools, aggregates localized evidence, and explains authenticity decisions.",
+    "authors": [
+      "Taewoo Kim",
+      "Young Han Lee",
+      "Nam In Park",
+      "Chanwoo Kim"
+    ],
+    "figure": {
+      "path": "assets/frameworks/tooldf.png",
+      "source_pdf_url": "https://arxiv.org/pdf/2609.03620v1",
+      "source_pdf_sha256": "e73659c448d91b1f24847e4817644fd8391e6e237c1ced90f31a7fcc24b73964",
+      "figure_label": "Figure 1",
+      "figure_kind": "framework",
+      "page": 3,
+      "crop_pt": [
+        69,
+        68,
+        527,
+        284
+      ],
+      "license_url": null
+    }
+  }
+]
